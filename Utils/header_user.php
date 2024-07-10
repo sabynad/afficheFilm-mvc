@@ -23,7 +23,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="?controller=affiche&action=serie_action_aventure">Action - Aventure</a></li>
                         <li><a class="dropdown-item" href="?controller=affiche&action=serie_fantastique_science">Fantastique - Science-fiction</a></li>
-                        <li><a class="dropdown-item" href="#">Comédie</a></li>
+                        <li><a class="dropdown-item" href="?controller=affiche&action=serie_comedie">Comédie</a></li>
                         <li><a class="dropdown-item" href="#">Documentaire</a></li>
                     </ul>
                 </li>

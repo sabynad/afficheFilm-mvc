@@ -21,6 +21,7 @@
                 <!-- <button type="button" class="btn btn-warning ">Ajouter au panier</button> -->
                 <!-- <a href="#" class="card-link">Another link</a> -->
             </div>
+            
         </div>
 
     <?php endforeach; ?>

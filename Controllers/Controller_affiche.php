@@ -57,5 +57,47 @@ class Controller_affiche extends Controller
         $this->render("serie_fantastique_science",$data);
     }
 
+    //toutes les series comedie
+    public function action_serie_comedie()
+    {
+        $m=Affiche::get_model();
+        $data=['affiches'=>$m->get_serie_comedie()];
+        $this->render("serie_comedie",$data);
+    }
+
+    //toutes les series documentaires
+    public function action_serie_documentaire()
+    {
+        $m=Affiche::get_model();
+        $data=['affiches'=>$m->get_serie_documentaire()];
+        $this->render("serie_documentaire",$data);
+    }
     
+
+    // tout les films aventure guerre histoire action
+    public function action_film_reel()
+    {
+        $m=Affiche::get_model();
+        $data=['affiches'=>$m->get_film_reel()];
+        $this->render("film_reel",$data);
+    }
+
+    // tout les films fantastique science fiction
+    public function action_film_ireel()
+    {
+        $m=Affiche::get_model();
+        $data=['affiches'=>$m->get_film_ireel()];
+        $this->render("film_ireel",$data);
+    }
+
+    // tout les films drama
+    public function action_film_drama()
+    {
+        $m=Affiche::get_model();
+        $data=['affiches'=>$m->get_film_drama()];
+        $this->render("film_drama",$data);
+    }
+
+    
+
 }

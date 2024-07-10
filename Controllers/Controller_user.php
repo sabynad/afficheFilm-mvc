@@ -14,6 +14,7 @@ class Controller_user extends Controller
 
 
     // Méthode pour afficher tous les utilisateurs
+    //----------------------------------------------------------------
     public function action_all_users()
     {
         $m=User::get_model();

@@ -17,7 +17,7 @@
                 <li class="list-group-item"><?= $a->prix ?> €</li>
             </ul>
             <div class="card-body">
-                <a href="#" class="card-link ">Ajouter</a>
+                <a href="?controller=admin&action=formulaire_update_affiche" class="btn btn-success">Update</a>
             </div>
         </div>
 

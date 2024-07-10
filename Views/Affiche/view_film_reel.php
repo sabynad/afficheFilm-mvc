@@ -1,7 +1,7 @@
 <?php
 // var_dump($affiches)
 ?>
-<div class="card-container " > 
+<div class="card-container">
     <?php foreach ($affiches as $a): ?>
         <!-- <?php var_dump($a); ?> -->
 
@@ -18,6 +18,8 @@
             </ul>
             <div class="card-body">
                 <a href="#" class="card-link ">Ajouter</a>
+                <!-- <button type="button" class="btn btn-warning ">Ajouter au panier</button> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
             </div>
         </div>
 
